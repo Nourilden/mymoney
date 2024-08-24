@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Money</title>
+    <link rel="stylesheet" href="master.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="money">
+        <p>Your money: $0</p>
+    </div>
+    <div class="things">
+        <button class="add">Add</button>
+    </div>
+    
+    <!-- Bar Chart -->
+    <div style="width: 80%; max-width: 600px; margin: 20px auto;">
+        <h3>Bar Chart: Costs of Things</h3>
+        <canvas id="barChart"></canvas>
+    </div>
+
+    <!-- Doughnut Chart -->
+    <div style="width: 80%; max-width: 600px; margin: 20px auto;">
+        <h3>Doughnut Chart: Costs of Things</h3>
+        <canvas id="doughnutChart"></canvas>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
